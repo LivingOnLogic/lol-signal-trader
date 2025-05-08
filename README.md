@@ -1,6 +1,6 @@
-# 📈 lol-signal-trader
+# 📈 buy-signal-trader
 
-**Autonomous signal-based trading agent** for the Living On Logic protocol.
+**Autonomous signal-based trading agent**
 
 This agent reacts to market signals — like RSI, sentiment, or moving averages — fetched from MCP modules and executes swaps automatically via connected DEX modules.
 
@@ -8,7 +8,7 @@ This agent reacts to market signals — like RSI, sentiment, or moving averages 
 
 ## ⚡ Overview
 
-`lol-signal-trader` enables fully automated crypto trading based on:
+`buy-signal-trader` enables fully automated crypto trading based on:
 
 - 🧠 Technical signals (RSI, SMA, Bollinger Bands)
 - 💬 Social sentiment (Twitter, Telegram, Nansen)
@@ -55,8 +55,8 @@ It is powered by **MCP signal sources** and **DEX execution endpoints**, all coo
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/LivingOnLogic/lol-signal-trader.git
-cd lol-signal-trader
+git clone https://github.com/buyproject/buy-signal-trader.git
+cd buy-signal-trader
 npm install
 npm run dev
 ```
